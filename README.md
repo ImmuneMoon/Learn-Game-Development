@@ -3,7 +3,6 @@
 ![Level: Beginner](https://img.shields.io/badge/Level-Beginner-2ea44f)
 ![Engines: Godot, GameMaker, Unity, Unreal, Pygame](https://img.shields.io/badge/Engines-Godot%20%7C%20GameMaker%20%7C%20Unity%20%7C%20Unreal%20%7C%20Pygame-478cbf)
 ![CS50 2D Game Development: free](https://img.shields.io/badge/CS50%202D%20Games-Free-a51c30)
-![Checked November 2026](https://img.shields.io/badge/Checked-Nov%202026-2ea44f)
 [![Last updated](https://img.shields.io/github/last-commit/ImmuneMoon/Learn-Game-Development?label=updated)](https://github.com/ImmuneMoon/Learn-Game-Development/commits/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 
