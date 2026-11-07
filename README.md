@@ -10,7 +10,7 @@
 **📄 [Download the PDF](Learn-Game-Development.pdf)**
 
 ## 📖 Overview
-**Learn Game Development** is a plain-language starting point for making your first games, built from a curated list of courses and videos. It covers:
+**Learn Game Development** is a plain-language starting point for making your first games. It covers:
 - where to start, led by Harvard's free CS50 game course and freeCodeCamp's full-length tutorials;
 - choosing an engine, with a comparison of Godot, GameMaker, Unity, Unreal, Pygame and building from scratch, including licensing and pricing as of November 2026;
 - art and assets: drawing your own sprites, free asset libraries and their licenses, and Blender and GIMP;
@@ -20,10 +20,8 @@
 - publishing on itch.io and Steam, with their fees, and the basics of starting a game company;
 - free courses, engine documentation, GDC talks and postmortems to keep learning.
 
-It started as a set of community notes written between 2022 and 2026, and has been updated and checked against official sources in November 2026.
-
 ## ⚠️ Important Notes
-* **Prices and license terms change.** Engine and store fees were checked in November 2026. Confirm them on each official page before you rely on them, especially before you sign anything or start selling.
+* **Prices and license terms change.** Confirm them on each official page before you rely on them, especially before you sign anything or start selling.
 * **The business and legal notes aren't legal or tax advice.** Rules on companies, tax and intellectual property vary by country. Talk to a qualified professional where you live.
 * **Respect other people's work.** Only use art, music and code you have the right to use, and keep a record of every license (Section 3.2).
 * **None of these sites or creators are affiliated with this guide.** Videos are linked and credited to their creators.
@@ -42,8 +40,6 @@ This guide works alongside these others:
 ---
 
 <!-- guide:start -->
-
-*Links, video titles, prices and license terms were checked on November 7, 2026, and each video's description here was checked against what the video actually says. They change, so confirm them on each official page.*
 
 ## Contents
 
@@ -69,12 +65,12 @@ You don't need to pick the "perfect" engine or language first. The skills that m
 
 ### 1.1 CS50's Introduction to 2D Game Development (Harvard, free)
 
-The old edX link for "CS50's Introduction to Game Development" no longer works. The course now lives at **[cs50.harvard.edu/games](https://cs50.harvard.edu/games/)**, under the name **CS50's Introduction to 2D Game Development**.
+Harvard's free game course lives at **[cs50.harvard.edu/games](https://cs50.harvard.edu/games/)**, under the name **CS50's Introduction to 2D Game Development** (it was once called "CS50's Introduction to Game Development").
 
 * **What it covers:** eight weeks, each built around a classic game: Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Legend of Zelda, Angry Birds and Pokémon, then a final project of your own. It teaches 2D graphics, animation, sound and collision detection.
 * **Language:** Lua, with the free [LÖVE](https://love2d.org/) 2D framework.
 * **Prerequisites:** CS50x, or some experience in any programming language. If you've never coded, start with [CS50x](https://cs50.harvard.edu/x/) (see [Computer Science Fundamentals](https://github.com/ImmuneMoon/Computer-Science-Fundamentals#2-where-to-learn-cs50-roadmaps-and-visual-tools)).
-* **Cost:** free through CS50's OpenCourseWare. The course FAQs describe a **free CS50 certificate** (you need at least 70% on each required assignment) and an optional **paid edX verified certificate**. When checked, the certificate page itself said "coming soon", so confirm the details on the [FAQs](https://cs50.harvard.edu/games/faqs/) before you start.
+* **Cost:** free through CS50's OpenCourseWare. The course FAQs describe a **free CS50 certificate** (you need at least 70% on each required assignment) and an optional **paid edX verified certificate**. In late 2026 the certificate page itself said "coming soon", so confirm the details on the [FAQs](https://cs50.harvard.edu/games/faqs/) before you start.
 * **Deadline:** the FAQs give the current course deadline as the end of June 30, 2027 (UTC), and work at your own pace until then.
 * **The older version:** the original course, which added 3D projects in Unity, was retired on June 30, 2024. Its materials remain online at [cs50.harvard.edu/games/2018](https://cs50.harvard.edu/games/2018/) for reference only.
 
@@ -159,7 +155,7 @@ He writes it in **Jai**, Jonathan Blow's language, which was still listed as an 
 
 An **engine** gives you a ready-made editor, rendering, physics, audio, input and exporting, so you can focus on the game itself. A **library** such as Pygame gives you the building blocks but leaves the structure to you. Building **from scratch** means writing most of that yourself.
 
-| Option | Cost and license (checked November 2026) | Language | Best at | A good pick if... |
+| Option | Cost and license (as of November 2026) | Language | Best at | A good pick if... |
 |---|---|---|---|---|
 | **[Godot](https://godotengine.org/)** (4.7) | Free and open source under the MIT license. No fees or royalties, and your game is yours. | GDScript (Python-like), C#, and C++ for advanced users | Strong, dedicated 2D tools; capable 3D that keeps improving | You want a free, lightweight engine for 2D or mid-sized 3D games |
 | **[GameMaker](https://gamemaker.io/en/get)** | **Free** for non-commercial use. **Professional**, a one-time $99.99, to sell games on desktop, web and mobile. **Enterprise** (a subscription) adds console exports. | GML, as code or as GML Visual blocks | 2D games | You want to make 2D games quickly, with a gentle start |
@@ -170,7 +166,7 @@ An **engine** gives you a ready-made editor, rendering, physics, audio, input an
 
 **Notes on the table:**
 * **Godot and C#:** C# needs the separate .NET edition of Godot, and Godot 4 can't export C# projects to the web yet. If you want browser games on itch.io, use GDScript.
-* **Unreal's royalty:** Epic's license and release pages describe these terms, but Epic's site blocked automated checks, so they were confirmed through search summaries of those pages. Read the current EULA at [unrealengine.com/license](https://www.unrealengine.com/license) before you plan around the 3.5% rate.
+* **Unreal's royalty:** read the current EULA at [unrealengine.com/license](https://www.unrealengine.com/license) before you plan around the 3.5% rate.
 * **LÖVE**, the framework CS50 uses, is another free 2D option, with Lua.
 * **Don't agonize over this choice.** Finishing a small game in any engine teaches you more than comparing engines. You can switch later, and most skills transfer.
 
@@ -283,7 +279,7 @@ The video set a goal of releasing in **2025** and showed, department by departme
 * **3D assets:** about 615 objects still to make, with plants and clothing furthest behind. The video says every one of Oblivion's 3D objects has to be **rebuilt from scratch** to meet the legal standard for release, rather than copied from the original game.
 * **Music:** all the original tracks kept, plus 17 new ones. The *Shivering Isles* expansion would come after the main release.
 
-**Where it stands (checked November 2026):**
+**Where it stands (as of November 2026):**
 * **Not released yet.** In December 2025 the team moved its release window from 2025 to 2026. The FAQ still aims for 2026 with no specific date, and the latest showcase on the site, of the Mages Guild questline, was posted in March 2026.
 * **Free, but you must own both games.** Its FAQ says you need *Skyrim Special Edition* and *Oblivion GOTY Deluxe* from Steam or GOG. It's for PC only, with no console versions, and the team doesn't take donations.
 * **A dispute in October 2026:** the project lead reported that a former volunteer was threatening legal action over code they had contributed. The team says it still plans to release.
@@ -327,7 +323,7 @@ A **game jam** is a time-limited event where you make a game around a theme, alo
 
 * **[itch.io jams](https://itch.io/jams):** a directory of hundreds of jams, upcoming and running, for every skill level and engine. The site says anyone can create and host a jam.
 * **[GMTK Game Jam](https://gamemakerstoolkit.com/jam):** hosted by Game Maker's Toolkit (Mark Brown's YouTube channel), and one of the biggest online jams. It lasts four days, it's open to anyone of any age (under-13s need a parent or guardian to upload), you can use any engine, and entries must be free to play. The 2026 jam (theme "Count Down") had about 37,000 participants and over 10,500 games. The 2027 jam is listed as starting **August 11, 2027**, with sign-up on [itch.io](https://itch.io/jam/gmtk-2027).
-* **[Global Game Jam](https://globalgamejam.org/):** a yearly jam, usually in late January, held at in-person sites around the world and online. Check its site for the 2027 dates, as reports differ.
+* **[Global Game Jam](https://globalgamejam.org/):** a yearly jam, usually in late January, held at in-person sites around the world and online. Check its site for the 2027 dates.
 
 **Jam tips:**
 1. Read the rules: theme, time limit, team size, and whether pre-made assets are allowed.
@@ -480,7 +476,7 @@ The **Game Developers Conference (GDC)** publishes many of its talks for free.
 - Jai (programming language), Wikipedia (closed beta status): https://en.wikipedia.org/wiki/Jai_(programming_language)
 - GDC Vault, free content: https://gdcvault.com/free
 
-**Videos from the original notes**
+**Videos**
 - freeCodeCamp.org, "Pokémon Coding Tutorial - CS50's Intro to Game Development": https://youtu.be/gx_qorHxBpI
 - Vimlark, "How I Design and Animate a Character": https://youtu.be/FnkDXMssMPU
 - Jasper, "The small detail behind Breath of the Wild's Thousands of Trees - Quick Answer": https://youtube.com/shorts/sh6s17WnWBM
@@ -488,8 +484,6 @@ The **Game Developers Conference (GDC)** publishes many of its talks for free.
 - Rebelzize, "Oblivion Remake Road to Release (Skyblivion Roadmap 2023)": https://youtu.be/H1q1nXLDjB8
 - Pirate Software, "Start Making Games": https://youtube.com/shorts/vhs83wzZ32Y
 - 2009aero, "I Built Cyberpunk 2077 on a Real PS2": https://youtu.be/RaL9GRliHWg
-
-**Other videos**
 - GDC Festival of Gaming, "'Doom:' A Classic Game Postmortem": https://www.youtube.com/watch?v=NnkCujnYNSo
 
 **Engines, licenses and pricing**
